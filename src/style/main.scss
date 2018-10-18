@@ -82,15 +82,21 @@
   grid-template-columns: [number-s] 26px [number-e input-s] 1fr [input-e];
 
   &__title{
-    grid-column: input-s/input-e; 
+    grid-column: input-s/input-e;
+
+    border-top: 1px solid #B3B3B3;
+    color: #B3B3B3;
+    font-size: 12px;
+    font-weight: 300;
   }
 
   input{
     grid-column: input-s/input-e;
 
     border: none;
-    color: white;
     font-size: 15px;
+    text-align: center;
+    font-weight: 600;
     // width: 190px;
     // height: 40px;
   }

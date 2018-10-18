@@ -76,6 +76,8 @@
 
 .input {
   display: grid;
+  font-family: 'Montserrat';
+  text-align: center;
   
   grid-template-columns: [number-s] 26px [number-e input-s] 1fr [input-e];
 
@@ -84,10 +86,25 @@
   }
 
   input{
-    grid-column: input-s/input-e; 
+    grid-column: input-s/input-e;
+
+    border: none;
+    color: white;
+    font-size: 15px;
+    // width: 190px;
+    // height: 40px;
   }
 
   &__number{
-    grid-column: number-s/number-e; 
+    grid-column: number-s/number-e;
+
+    background-color: #00CB79;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    padding-top: 1px;
+
+    border-radius: 50%;
   }
 }
